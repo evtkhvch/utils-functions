@@ -1,4 +1,4 @@
-## utils functions ⚡️
+## utils functions 😜
 
 ## omit ⚡️
 
