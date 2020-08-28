@@ -1,6 +1,6 @@
-## 😉 utils functions 😉
+## utils functions ⚡️
 
-## omit function 🐱
+## omit function ⚡️
 
 ```html
 export const omit = <T extends keyof R, R extends object>(prop: T, obj: R): Pick<R, Exclude<keyof R, T>> => {
@@ -9,7 +9,7 @@ export const omit = <T extends keyof R, R extends object>(prop: T, obj: R): Pick
 };
 ```
 
-## concat by prop name function 🐱
+## concat by prop name function ⚡️
 
 ```html
 export const concatByPropName = <T, R>(prevArr: R[], currArr: T[], prop: string): Array<Spread<T, R>> | T[] => {
