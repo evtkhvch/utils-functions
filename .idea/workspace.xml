@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ada4cf-083b-4457-9583-3ba1657cc424" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utility-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598622583350</updated>
       <workItem from="1598622584455" duration="634000" />
+      <workItem from="1598643933356" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1598622679623</created>
@@ -54,6 +55,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />

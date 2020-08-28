@@ -5,7 +5,7 @@ export const omit = <T extends keyof R, R extends object>(prop: T, obj: R): Pick
     return newObj;
 };
 
-export const concat = <T, R>(prevArr: R[], currArr: T[] = [], prop: string): Array<Spread<T, R>> | T[] => {
+export const concatByPropName = <T, R>(prevArr: R[], currArr: T[], prop: string): Array<Spread<T, R>> | T[] => {
     return currArr.map((obj) => {
         const prevObj = prevArr.find((val) => obj[prop] === val[prop]);
         return prevObj ? { ...prevObj, ...obj } : obj;
